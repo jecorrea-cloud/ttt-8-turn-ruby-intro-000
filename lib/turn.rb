@@ -3,7 +3,7 @@ def turn
   input = gets.strip
 end
 
-def display_board(board)
+def display_board()
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "

@@ -1,7 +1,4 @@
-def turn
-  puts "Please enter 1-9"
-  input = gets.strip
-end
+
 
 def display_board()
   puts "   |   |   "
@@ -12,5 +9,5 @@ def display_board()
 end
 
 def input_to_index (user_input)
-  converted_input = user_input.to_i
+  converted_input = user_input.to_i -1
 end
